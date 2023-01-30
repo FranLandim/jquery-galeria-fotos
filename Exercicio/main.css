@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: rgb(238, 193, 230);
+  padding: 16px 0;
+  color: rgb(212, 46, 204);
+  display: flex;
+  border-bottom: 5px solid rgb(105, 104, 104);
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+form {
+  background-color: rgb(238, 193, 230);
+  padding: 24px 0;
+  text-align: center;
+}
+
+form input {
+  border: none;
+  max-width: 640px;
+  width: 25%;
+  border-bottom: 3px solid rgb(212, 46, 204);
+}
+
+form button:hover {
+  background-color: rgb(232, 236, 240);
+}
+
+input, button {
+  padding: 10px;
+}
+
+button {
+  background-color: rgb(172, 181, 189);
+  border: none;
+  cursor: pointer;
+}
+
+li {
+  cursor: pointer;
+  color: rgb(143, 16, 136);
+}
+
+.strike-through {
+  text-decoration: line-through;
+  color: rgb(241, 3, 3);
+  }
